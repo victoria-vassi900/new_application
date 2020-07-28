@@ -1,0 +1,14 @@
+#second-navbar {
+  background-color: #dde;
+  display: flex;  /* unlocks "flex" property for its children (<a> tags) */
+}
+#second-navbar a {
+  height: 50px;
+  flex: 1;  /* all of these <a> elements will "grow" an equal amount (so they all have an equal width) */
+  display: flex;  /* allows use of "justify-content" and "align-items" properties */
+  justify-content: center;  /* horizontally centers the contents (the text within) */
+  align-items: center; /* vertically centers the contents (the text within) */
+}
+#second-navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.1);  /* change color when hover over the link */
+}

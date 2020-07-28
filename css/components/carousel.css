@@ -1,0 +1,5 @@
+#carouselExampleIndicators img {
+  width: 100%;
+  height: calc(100vh - 56px - 50px);
+  object-fit: cover;
+}
